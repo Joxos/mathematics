@@ -8,6 +8,10 @@ template <typename T> void display(Set<T> s, string sep = " ") {
   cout << endl;
 }
 
+struct Point {
+  double x, y;
+};
+
 int main(void) {
   Set<int> s = Set<int>();
 
