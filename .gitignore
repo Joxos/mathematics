@@ -1,2 +1,9 @@
 *.~undo-tree~
 a.exe
+.vs/
+*.sln
+*.vcxproj.*
+*.vcxproj
+/Debug/vc142.pdb
+/Debug/mathematics.log
+/Debug/mathematics.tlog
