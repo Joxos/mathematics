@@ -55,8 +55,10 @@ int main(void) {
     cout << (s == s1) << endl;
     // 1 1
     */
-    binaryTree<int> a;
-    a.insert(7);
-    a.print(a.getRoot());
-  return 0;
+    int v[9] = { 2,1,5,3,2,4,5,61,33 };
+    _Set<int> st;
+    st.init(v, 9);
+    st.display();
+    system("pause");
+    return 0;
 }
